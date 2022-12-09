@@ -12,6 +12,7 @@ This repository contains the NHS Cost checker tool Automation framework using Se
 
 ### Framework set up
 Fork / Clone repository from [here]( https://github.com/harishrqa/Harish-Vemula-NHSBSA) or download zip and set it up in your local workspace.
+
 ### Run Tests
-- Open terminal (MAC OSX) or command prompt / power shell (for windows OS) and navigate to the project directory type mvn test command to run features. With this command it will invoke the default Chrome browser and will execute the tests.
-- To run features on specific browser use, mvn test -DBROWSER="browser_name" browser_name can be one of following -- firefox -- chrome
+- Open terminal(mac os) or command prompt / power shell (windows OS) and navigate to the project directory type `mvn test` command to run features. With this command it will invoke the default Chrome browser and will execute the tests.
+- To run features on specific browser use, `mvn test -DBROWSER="browser_name"` eg: `browser_name` can be `firefox` or `chrome`
